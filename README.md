@@ -3,7 +3,7 @@ Laravel Breeze default blade stack without Tailwindcss or alpinejs.
 
 > A dry martini, not shaken, not stirred, no gin and no olives.
 
-Shipped with minimal styling to get you started. Delete them, start your own or build on top of them. Uses postcss and postcss-import, autoprefixer is off by default. Add your postcss plugins and config in ``postcss.config.js`` as needed. Enjoy!
+Shipped with minimal styles to get you started. Delete them, start your own or build on top of them. Uses postcss and postcss-import, autoprefixer is off by default. Add your postcss plugins and config in ``postcss.config.js`` as needed. Enjoy!
 
 ## How to
 
