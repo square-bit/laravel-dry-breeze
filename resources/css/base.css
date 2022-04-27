@@ -1,0 +1,99 @@
+::selection {
+    background: #000;
+    color: #fff;
+}
+
+html {
+	font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+	font-size: 100%;
+	block-size: 100%;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	text-rendering: optimizeSpeed;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+svg {
+    max-block-size: 100%;
+    pointer-events: none;
+}
+
+img {
+	display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+body {
+	block-size: 100%;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	padding: 5vmin;
+	background-color: #fff;
+	color: #000;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+/*--------------------------
+	Some global flow defaults
+---------------------------*/
+
+:is(p, ul ,ol, dl) {
+	-webkit-hyphens: auto;
+	hyphens: auto;
+    max-inline-size: 50ch;
+    margin-block-end: 1rem;
+}
+
+:is(ul, ol, dd):not(.list) {
+	margin-inline-start: 1rem;
+}
+
+h1, h2, h3, h4 { 
+	font-size: inherit;
+	line-height: 1.2;
+	margin-block-end: 1rem;
+}
+
+hr {
+	block-size: 1px;
+	margin-block: 2rem;
+	background-color: #eee;
+	border: 0;
+}
+
+/*--------------------------
+	Basic layout
+---------------------------*/
+
+header, nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-block-end: 2rem;
+}
+
+auth-card {
+    display: block;
+    max-inline-size: 24rem;
+    margin-inline: auto;
+}
