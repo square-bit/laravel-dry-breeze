@@ -7,10 +7,5 @@ An opinionated edition for personal reference when starting new projects. Shippe
 
 ## How to
 
-1. install breeze [docs](https://laravel.com/docs/9.x/starter-kits#laravel-breeze)
-2. when finished, __do not run__ ``npm install`` just yet
-3. delete tailwind.config.js
-4. copy this repo (without README.md, LICENSE, .gitignore) to your project root, overwrite files when asked.
-5. run ``npm install``
-6. run ``npm run dev``
-7. done!
+1. ``composer require square-bit/laravel-dry-breeze``
+2. ``php artisan drybreeze:install``
