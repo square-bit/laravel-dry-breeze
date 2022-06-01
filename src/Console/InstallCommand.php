@@ -74,6 +74,8 @@ class InstallCommand extends Command
         // Dry breeze / Webpack...
         copy(__DIR__.'/../../stubs/postcss.config.js', base_path('postcss.config.js'));
         copy(__DIR__.'/../../stubs/webpack.mix.js', base_path('webpack.mix.js'));
+        copy(__DIR__.'/../../stubs/resources/css/base.css', resource_path('css/base.css'));
+        copy(__DIR__.'/../../stubs/resources/css/forms.css', resource_path('css/forms.css'));
         copy(__DIR__.'/../../stubs/resources/css/app.css', resource_path('css/app.css'));
         copy(__DIR__.'/../../stubs/resources/js/app.js', resource_path('js/app.js'));
 
